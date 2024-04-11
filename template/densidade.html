@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Massa, Volume e Densidade</title>
+  <link rel="stylesheet" type="text/css" href="../assets/css/densidade.css">
+  <link rel="icon" href="../assets/img/unnamed-removebg-preview.png">
+  <script src="../assets/js/densidade.js"></script>
+</head>
+<body>
+  
+  <header>
+    <nav class="header-component">
+      <a href="../index.html"><img src="../assets/img/unnamed-removebg-preview.png" class="logo"></a>
+      <a href="../index.html"><h1 class="titulo">Matematic</h1></a>
+      
+
+      <nav class="header-nav">
+        <a class="header-nav-component" href="../index.html">Home</a>      
+        <a class="header-nav-component" href="../template/temperatura.html">Temperatura</a>
+        <a class="header-nav-component" href="../template/peso.html">Peso</a>
+        <a class="header-nav-component" href="../template/imc.html">IMC</a>
+        <a class="header-nav-component" href="../template/pitagoras.html">Pitágoras</a>
+      </nav>
+
+    </nav>
+    
+  </header>
+
+  <img class="banner" src="../assets/img/densidade-banner.png">
+
+  <div class="container">
+    <h1>Calcular Densidade</h1>
+    <div class="form-group">
+      <label>Massa (kg):</label>
+      <input type="number" id="inputMass" min="0" step="0.01">
+    </div>
+    <div class="form-group">
+      <label>Volume (m³):</label>
+      <input type="number" id="inputVolume" min="0" step="0.01">
+    </div>
+    <div class="form-group">
+      <button onclick="calculate()">Calcular</button>
+    </div>
+    <div class="result">
+      <div class="result-group">
+        <label>Densidade:</label>
+        <span id="resultDensity"></span>
+      </div>
+    </div>
+  </div>
+
+  <a href="../template/densidadeformula.html"><h3 class="formula">Ver Fórmulas</h3></a>
+  
+  <div class="back">
+    <h3>A densidade é uma propriedade da matéria que relaciona a massa e o volume de um corpo. É muito utilizada na química para caracterizar e identificar substâncias, sendo um parâmetro importante em rotinas de controle de qualidade. É caracterizada como uma propriedade intensiva da matéria, ou seja, independe do tamanho da amostra.</h3>
+  </div>
+
+  <footer>
+        
+    <h3>Onde nos encontrar:</h3>
+
+    <div class="contt01">
+        <a href="https://www.instagram.com/matemaatic__/" target="_blank"><img class="insta" src="../assets/img/instagram-logo.png"> <h4>@matemaatic__</h4></a>
+    </div>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Temperatura</title>
+  <link rel="stylesheet" type="text/css" href="../assets/css/temperatura.css">
+  <link rel="icon" href="../assets/img/unnamed-removebg-preview.png">
+  <script src="../assets/js/temperatura.js"></script>
+<body>
+
+  <header>
+    <nav class="header-component">
+      <a href="../index.html"><img src="../assets/img/unnamed-removebg-preview.png" class="logo"></a>
+      <a href="../index.html"><h1 class="titulo">Matematic</h1></a>
+      
+      <nav class="header-nav">
+        <a class="header-nav-component" href="../index.html">Home</a>
+        <a class="header-nav-component" href="../template/peso.html">Peso</a>
+        <a class="header-nav-component" href="../template/imc.html">IMC</a>
+        <a class="header-nav-component" href="../template/pitagoras.html">Pitágoras</a>
+        <a class="header-nav-component" href="../template/densidade.html">Densidade</a>
+      </nav>
+    </nav>
+    
+  </header>
+
+  <img class="banner" src="../assets/img/banner-temp.png">
+
+  <div class="container">
+    <div class="converter">
+      <h1 class="letra-tab">Conversor de Temperatura</h1>
+      <label for="temp-celsius">Celsius:</label>
+      <input type="number" id="temp-celsius">
+      <br>
+      <button class="botao" onclick="converterParaFahrenheit()">Converter para Fahrenheit</button>
+      <button class="botao" onclick="converterParaKelvin()">Converter para Kelvin</button>
+      <br>
+      <label for="temp-fahrenheit">Fahrenheit:</label>
+      <input type="number" id="temp-fahrenheit">
+      <br>
+      <button class="botao" onclick="converterParaCelsius()">Converter para Celsius</button>
+      <button class="botao" onclick="converterParaKelvin()">Converter para Kelvin</button>
+      <br>
+      <label for="temp-kelvin">Kelvin:</label>
+      <input type="number" id="temp-kelvin">
+      <br>
+      <button class="botao" onclick="converterParaCelsius()">Converter para Celsius</button>
+      <button class="botao" onclick="converterParaFahrenheit()">Converter para Fahrenheit</button>
+    </div>
+  </div>  
+
+  <a href="../template/temperaturaformulas.html"><h3 class="formula">Ver Fórmulas</h3></a>
+
+  <div class="back">
+    <h3>A temperatura é uma grandeza física que mede o grau de agitação térmica das  moléculas que constituem um corpo. Quanto maior for a agitação das moléculas, maior será a sua temperatura. Além disso, o estado físico da matéria está relacionado com sua temperatura. Existem várias escalas termométricas para medir a temperatura. A mais utilizada é a escala Celsius (°C), que é baseada no ponto de fusão e ebulição da água. Outra escala comum é a Fahrenheit (°F), que é usada principalmente nos Estados Unidos. A escala Kelvin (K) é usada nos cálculos de química e física.</h3>
+  </div>
+
+  <footer>
+        
+    <h3>Onde nos encontrar:</h3>
+
+    <div class="contt01">
+        <a href="https://www.instagram.com/matemaatic__/" target="_blank"><img class="insta" src="../assets/img/instagram-logo.png"> <h4>@matemaatic__</h4></a>
+    </div>
+
+  </footer>
+</body>
+</html>

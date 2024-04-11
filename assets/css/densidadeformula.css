@@ -1,0 +1,148 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header-component{
+  /* width: 1920px;
+  height: 65px; */
+  background: #5E27B7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-nav{
+  width: 100%;
+  max-width: 1920px;
+  /* background: #B83A6F; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.header-nav-component{
+  margin-right: 50px;
+  color: aliceblue;
+}
+
+.titulo{
+  color: aliceblue;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logo{
+  height: 75px;
+  width: 75px;
+}
+
+.sobre{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.banner {
+  display: flex;
+  align-self: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.formulas{
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(to left, #7839dd, #2b0863);
+  height: 100%;
+  margin-top: 3%;
+  box-shadow: 0 0 50px #2b0863;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #170336;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  box-shadow: 0 0 50px #2b0863; 
+}
+
+
+.insta{
+  height: 40px;
+  width: 40px;
+}
+
+.contt01{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.formul{
+  display: flexbox;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.img-formul{
+  display: flex;
+  margin-inline: auto;
+  justify-self: center;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  width: 70%;
+}
+
+.explicacao-formul{
+  text-align: center;
+  max-width: 40%;
+  margin-inline: auto;
+}
+
+/* Media query para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    .header-nav {
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+  
+    .header-nav-component {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .titulo {
+      font-size: 18px;
+    }
+  
+    .logo {
+      height: 50px;
+      width: 50px;
+    }
+  }
+  
+  /* Media query para telas menores que 480px */
+  @media screen and (max-width: 480px) {
+    .header-nav-component {
+      font-size: 14px;
+    }
+
+    .formulas{
+      font-size: 14px;
+    }
+
+    .explicacao-formul{
+      font-size: 14px;
+    }
+  }
+  
